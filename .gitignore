@@ -1,0 +1,19 @@
+# Files Git should never save. Fully explained on Day 5.
+
+# Python's auto-generated cache files
+__pycache__/
+*.pyc
+
+# pytest's cache
+.pytest_cache/
+
+# Virtual environments (Day 10)
+venv/
+.venv/
+
+# Secrets such as API keys: NEVER commit these (Day 15)
+.env
+
+# Editor and Windows clutter
+.vscode/
+Thumbs.db
